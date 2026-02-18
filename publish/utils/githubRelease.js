@@ -33,7 +33,7 @@ const options = {
   draft: false,
   prerelease: false,
   repo: pkg.name,
-  owner: pkg.author,
+  owner: hk4567 , //pkg.author   set my name
   endpoint: 'https://api.github.com', // for GitHub enterprise, use http(s)://hostname/api/v3
   auth: {
     token,
