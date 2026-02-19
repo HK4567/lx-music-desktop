@@ -47,7 +47,7 @@ const options = {
   publish: [
     {
       provider: 'github',
-      owner: 'lyswhut',
+      owner: 'hk4567',
       repo: 'lx-music-desktop',
     },
   ],
