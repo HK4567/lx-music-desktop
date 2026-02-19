@@ -19,21 +19,21 @@ const run = async() => {
     await clearAssets()
     console.log(chalk.green('Assets clear completed...'))
 
-    // console.log(chalk.blue('Compileing assets...'))
-    // await compileAssets()
-    // console.log(chalk.green('Asset compiled successfully.'))
+    console.log(chalk.blue('Compileing assets...'))
+    await compileAssets()
+    console.log(chalk.green('Asset compiled successfully.'))
 
-    // console.log(chalk.blue('Building assets...'))
-    // await packAssets()
-    // console.log(chalk.green('Asset build successfully.'))
+    console.log(chalk.blue('Building assets...'))
+    await packAssets()
+    console.log(chalk.green('Asset build successfully.'))
 
-    // console.log(chalk.blue('Copy files...'))
-    // await copyFile()
-    // console.log(chalk.green('Complete copy of all files.'))
+    console.log(chalk.blue('Copy files...'))
+    await copyFile()
+    console.log(chalk.green('Complete copy of all files.'))
 
-    // console.log(chalk.blue('Create release...'))
-    // await githubRelease(params)
-    // console.log(chalk.green('Release created.'))
+    console.log(chalk.blue('Create release...'))
+    await githubRelease(params)
+    console.log(chalk.green('Release created.'))
 
     console.log(chalk.green('日志更新完成~'))
   } catch (error) {
