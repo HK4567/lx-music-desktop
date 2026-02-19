@@ -51,6 +51,7 @@
     "publish:linux:deb:amd64": "node build-config/build-pack.js target=linux arch=x64 type=deb publish=always",
     "publish:linux:deb:arm64": "node build-config/build-pack.js target=linux arch=arm64 type=deb publish=always",
     "publish:linux:deb:armv7l": "node build-config/build-pack.js target=linux arch=armv7l type=deb publish=always",
+    "publish:linux:rpm": "node build-config/build-pack.js target=linux arch=arm64 type=rpm publish=always",
     "publish:linux:appImage": "node build-config/build-pack.js target=linux arch=x64 type=appImage publish=always",
     "publish:linux:rpm": "node build-config/build-pack.js target=linux arch=x64 type=rpm publish=always",
     "publish:linux:pacman": "node build-config/build-pack.js target=linux arch=x64 type=pacman publish=always",
