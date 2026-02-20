@@ -76,8 +76,11 @@ jobs:
           npm run publish:linux:deb:amd64
           npm run publish:linux:deb:arm64
           npm run publish:linux:deb:armv7l
+          npm run publish:linux:appImage
           npm run publish:linux:appImage:arm64
+          npm run publish:linux:rpm
           npm run publish:linux:rpm:arm64
+          npm run publish:linux:pacman
           npm run publish:linux:pacman:arm64
         env:
           GITHUB_TOKEN: ${{ github.token }}
