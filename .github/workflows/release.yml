@@ -8,6 +8,9 @@ on:
 env:
   IS_CI: 'true'
 
+permissions:
+  contents: write
+
 jobs:
   # CheckCode:
   #   name: Lint Code
@@ -70,9 +73,9 @@ jobs:
 
       - name: Release package
         run: |
-          # npm run publish:linux:deb:amd64
+          npm run publish:linux:deb:amd64
           npm run publish:linux:deb:arm64
-          # npm run publish:linux:deb:armv7l
+          npm run publish:linux:deb:armv7l
           npm run publish:linux:appImage:arm64
           npm run publish:linux:rpm:arm64
           npm run publish:linux:pacman:arm64
